@@ -9,6 +9,7 @@ export default class Router extends EmberRouter {
 Router.map(function () {
   this.route('radio');
   this.route('library');
+  this.route('/', { path: "/home" })
 
   this.route('collections', function () {
     this.route('favourites');
