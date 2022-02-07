@@ -17,11 +17,11 @@
     }
 
     &__header {
-        display        : flex;
-        align-items    : flex-end;
+        display: flex;
         width          : 30%;
         justify-content: space-between;
-        font-size      : 3rem;
+        
+        align-items    : center;
     }
 
     &__heading {
