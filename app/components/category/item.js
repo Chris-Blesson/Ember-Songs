@@ -4,7 +4,7 @@ import { tracked } from '@glimmer/tracking';
 import { inject as service } from '@ember/service'
 export default class CategoryItemComponent extends Component {
 
-    @tracked isFav = false;
+    @tracked isFav = this.getInitialStatus();
     @service("favourites") favouriteListService;
     @action
     toggleFav() {
@@ -25,7 +25,7 @@ export default class CategoryItemComponent extends Component {
         }
     }
 
-    
+
 
     get favStatus() {
         return this.isFav;
@@ -33,6 +33,12 @@ export default class CategoryItemComponent extends Component {
 
     addFavourites() {
         this.favouriteListService.addItemsToFavourite(this.args.item);
+    }
+
+    getInitialStatus() {
+        return this.favouriteListService.favourites.any(item =>
+            item.id === this.args.item.id
+        );
     }
 
 
