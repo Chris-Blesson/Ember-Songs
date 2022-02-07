@@ -34,6 +34,7 @@ export default class CollectionsFavouritesController extends Controller {
 
     @action
     filterFavourites(event) {
+        console.log('Called');
         this.type = "filter";
         this.songs = [];
         this.headingText = event.target.value.length > 0 ? "No results found for " + `'${event.target.value}'` : 'No results found';
