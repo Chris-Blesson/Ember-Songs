@@ -37,13 +37,21 @@ export default class CollectionsFavouritesController extends Controller {
         console.log('Called');
         this.type = "filter";
         this.songs = [];
-        this.headingText = event.target.value.length > 0 ? "No results found for " + `'${event.target.value}'` : 'No results found';
+        if (event.target.value.length > 0) {
+            this.headingText = "No results found for " + `'${event.target.value}'`;
+            this.favouriteListService.favourites.map(favourite => {
+                if (favourite.title.includes(event.target.value) && event.target.value.length > 0) {
+                    this.songs.push(favourite);
+                }
+            })
+        }
+        else {
+            this.headingText = "No results found";
+            this.songs = this.favouriteListService.favourites;
+        }
+
         this.subHeadingText = "Please make sure the search word is spelled right!"
-        this.favouriteListService.favourites.map(favourite => {
-            if (favourite.title.includes(event.target.value) && event.target.value.length > 0) {
-                this.songs.push(favourite);
-            }
-        })
+
     }
 
     resetData() {
