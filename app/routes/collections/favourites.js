@@ -5,7 +5,7 @@ export default class CollectionsFavouritesRoute extends Route {
     model() {
         return this.favouriteListService.favourites;
     }
-    resetController(controller, isExiting, transition) {
+    resetController(controller, isExiting) {
     if (isExiting) {
       controller.resetData();
     }
