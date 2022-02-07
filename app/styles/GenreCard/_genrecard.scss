@@ -1,0 +1,86 @@
+.genre {
+    padding: 2rem;
+
+    &-card {
+        width           : 22rem;
+        background-color: #ccc;
+        height          : 30rem;
+        border-radius   : 40px;
+        box-shadow      : $card-shadow;
+        cursor          : pointer;
+        font-family     : 'Source Sans Pro', sans-serif;
+
+        transition: all .8s;
+        overflow  : hidden;
+
+        &:hover,
+        &:focus,
+        &--scaled {
+            transform: scale(1.1);
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &__category {
+            display        : flex;
+            justify-content: center;
+            text-transform : uppercase;
+            margin-top     : 3rem;
+            color          : $dark-secondary;
+        }
+
+
+        &__background {
+
+            &-image {
+                height                    : 20rem;
+                width                     : 20rem;
+                position                  : relative;
+                margin                    : auto;
+                top                       : 3.75rem;
+                animation                 : translate-bottom-up .7s ease-in-out;
+                
+
+
+                &--1 {
+                    background         : url(../assets/pop1.png);
+                    background-size    : contain;
+                    background-repeat  : no-repeat;
+                    background-position: center;
+                }
+
+                &--2 {
+                    background         : url(../assets/dance.png);
+                    background-size    : contain;
+                    background-repeat  : no-repeat;
+                    background-position: center;
+                }
+
+                &--3 {
+                    background         : url(../assets/pop.png);
+                    background-size    : contain;
+                    background-repeat  : no-repeat;
+                    background-position: center;
+                }
+            }
+
+            &--1 {
+                background-color: $card-bg-1;
+            }
+
+            &--2 {
+                background-color: $card-bg-2;
+            }
+
+            &--3 {
+                background-color: $card-bg-3;
+            }
+
+            &--4 {
+                background-color: $card-bg-4;
+            }
+        }
+    }
+}

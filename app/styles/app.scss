@@ -1,0 +1,18 @@
+@import 'tailwind.css';
+@import 'base.scss';
+@import 'variables.scss';
+@import 'animations.scss';
+@import 'mixins.scss';
+@import 'utils.scss';
+
+@import './navigation/navbar';
+@import './GenreCard/genrecard';
+@import './Category/category';
+@import './SearchBox/searchbox';
+@import './Song/song';
+@import './application';
+
+
+
+@import './templates/home';
+@import './templates/favourites';

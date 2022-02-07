@@ -1,0 +1,83 @@
+ul {
+    margin : 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    width           : 20rem;
+    background-color: $dark-primary;
+    position        : fixed;
+    height          : 100vh;
+    overflow-y      : scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .logo {
+        display        : flex;
+        color          : $white;
+        justify-content: space-evenly;
+        padding-top    : 2rem;
+
+
+        &__title {
+            font-size   : 2rem;
+            margin-right: 2rem;
+        }
+    }
+
+    .navitem {
+        color  : $product-grey;
+        padding: 1.4rem;
+
+        &--focus {
+            outline       : 1px dashed $product-grey;
+            outline-offset: -2px;
+        }
+
+
+
+        &>a {
+            color          : $product-grey;
+            text-decoration: none;
+            font-family    : 'Source Sans Pro', sans-serif;
+
+            &:hover {
+                color: $nav-highlight;
+            }
+
+            &:focus-visible {
+                outline: none;
+            }
+        }
+
+        &--active {
+            color: $nav-active;
+        }
+
+        &:nth-child(2) {
+            margin-top: 2rem;
+        }
+
+
+        &__wrapper {
+            display        : flex;
+            justify-content: space-evenly;
+            cursor         : pointer;
+        }
+
+        &__icon {
+            width : 2.4rem;
+            height: 2.4rem;
+            fill  : $product-grey;
+        }
+
+        &__title {
+            font-size     : 1.6rem;
+            text-transform: capitalize;
+            width         : 8rem;
+        }
+    }
+}

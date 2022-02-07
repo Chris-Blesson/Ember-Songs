@@ -1,0 +1,24 @@
+.favourites {
+
+    &__layout {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    &__list-container {
+        width: 90%;
+
+        & .record__add-fav {
+            visibility: hidden;
+        }
+    }
+
+    &__search-container {
+        margin: 5rem;
+    }
+
+
+
+
+}

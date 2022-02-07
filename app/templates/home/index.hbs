@@ -1,0 +1,35 @@
+<section class="profile-home">
+    <div class="genre">
+        <div class="genre__layout">
+            <GenreCard
+                @title="Pop hits"
+                @type="1"
+                @currentFocus={{this.currentFocus}}
+                @updateCurrentFocus={{this.updateCurrentFocus}}>
+            </GenreCard>
+            <GenreCard
+                @title="Dance beats"
+                @type="2"
+                @currentFocus={{this.currentFocus}}
+                @updateCurrentFocus={{this.updateCurrentFocus}}>
+            </GenreCard>
+            <GenreCard
+                @title="Top hits"
+                @type="3"
+                @currentFocus={{this.currentFocus}}
+                @updateCurrentFocus={{this.updateCurrentFocus}}>
+            </GenreCard>
+        </div>
+        <div class="genre-list__layout">
+            <Category
+                @title={{this.currentGenre}}
+                @songList={{this.songList}}
+                @renderStatus={{this.renderStatus}}
+                @setRoute={{this.setRoute}}
+            ></Category>
+        </div>
+    </div>
+
+
+
+</section>

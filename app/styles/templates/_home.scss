@@ -1,0 +1,13 @@
+.profile-home {
+    padding: 2%;
+}
+
+.genre {
+    display       : flex;
+    flex-direction: column;
+
+    &__layout {
+        display        : flex;
+        justify-content: space-evenly;
+    }
+}

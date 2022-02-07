@@ -1,0 +1,17 @@
+@mixin shimmer($timing) {
+
+    background-image : linear-gradient(90deg, $grey-light-1  0, #e9ebee 40%, #f6f7f9 60%, #f6f7f9);
+    background-size  : 99% 100%;
+    background-repeat: no-repeat;
+    animation        : shimmer $timing linear infinite backwards;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 100% * 1 100%;
+    }
+
+    100% {
+        background-position: 100% * 200 50%;
+    }
+}

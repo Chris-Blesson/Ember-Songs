@@ -1,0 +1,116 @@
+<section class="song">
+    <div class="song__layout">
+        <div class="song__image">
+            <img style="width: 23rem;height: 23rem;" class="song__image--background-pic"
+                src={{@background}}
+                alt="Image">
+            <div class="song__details">
+                <h1 class="song__details--title">
+                    {{@title}}
+                </h1>
+                <h2 class="song__details--owner">
+                    {{@subtitle}}
+                </h2>
+            </div>
+        </div>
+
+        <div class="song__lyrics">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
+                libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum
+                imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper
+                porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+            <p>
+                Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.
+                Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed
+                convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus
+                risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula
+                lacinia aliquet. Mauris ipsum.
+            </p>
+            <p>
+                Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque
+                volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per
+                conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non
+                tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.
+                Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus
+                consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.</p>
+            <p>
+                Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus
+                luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at
+                interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus
+                et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit
+                dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit
+                amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et,
+                augue. Vestibulum tincidunt malesuada tellus.</p>
+            <p>
+                Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar
+                ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed
+                aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis
+                tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante.
+            </p>
+        </div>
+
+        <div class="song__controls">
+            <div class="song__controls-image">
+                <img style="width: 4rem;height: 4rem;" class="song__controls-image--cover"
+                    src={{@cover}}
+                    alt="Image">
+            </div>
+            <div class="song__controls-details">
+                <h4 class="song__controls-details--title">
+                    {{@title}}
+                </h4>
+                <h5 class="song__controls-details--owner">
+                    {{@subtitle}}
+                </h5>
+            </div>
+
+            <div class="song__controls-actions">
+                <div class="song__controls-actions--prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem" class="h-6
+                        w-6" fill="none" viewBox="0 0
+                        24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0
+                            00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1
+                            0 00-1.6-.8l-5.334 4z" />
+                        </svg>
+                    </div>
+                    <div class="song__controls-actions--pause">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem"
+                            class="h-6 w-6" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <div class="song__controls-actions--next">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem"
+                                class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005
+                                    8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1
+                                    1 0 0013 8v8a1 1 0 001.6.8l5.333-4z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="song__controls-progess">
+
+                        </div>
+
+                        <div class="song__controls-sound">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="2rem" width="2rem"
+                                class="h-6 w-6" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9
+                                    0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0
+                                    011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0
+                                    .891-1.077 1.337-1.707.707L5.586 15z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </section>

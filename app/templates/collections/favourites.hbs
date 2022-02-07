@@ -1,0 +1,16 @@
+<section class="favourites">
+    <div class="favourites__layout">
+        <div class="favourites__search-container">
+            <Search-Box @onInputChangeHandler={{this.filterFavourites}} @placeholder="Songs,albums"></Search-Box>
+        </div>
+        <div class="favourites__list-container">
+            <Category
+                @title="Favourites"
+                @songList={{this.songList}}
+                @renderStatus={{this.renderStatus}}
+                @heading={{this.heading}}
+                @subHeading={{this.subHeading}}
+            ></Category>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,21 @@
+<div class="navitem {{if this.focusState "navitem--focus"}}"
+    {{on "click" (fn @currentSelected @title) }}
+    {{on "focusin" (fn @currentFocused @title) }}
+>
+    <LinkTo @route={{@path}}>
+        <div class="navitem__wrapper {{if this.activeState "navitem--active" }}">
+            <div class="navitem__icon navitem__icon--{{@title}}">
+                <svg xmlns="http://www.w3.org/2000/svg" class={{@class}} fill={{@fill}}
+                    stroke={{@stroke}}
+                    viewBox={{@viewBox}}>
+                    <path ...attributes></path>
+                </svg>
+
+
+            </div>
+            <div class="navitem__title">
+                {{@title}}
+            </div>
+        </div>
+    </LinkTo>
+</div>

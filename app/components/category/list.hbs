@@ -1,0 +1,35 @@
+<ul class="category__list">
+    {{#if @renderStatus}}
+    <Category::ListSkeleton></Category::ListSkeleton>
+    <Category::ListSkeleton></Category::ListSkeleton>
+    <Category::ListSkeleton></Category::ListSkeleton>
+    <Category::ListSkeleton></Category::ListSkeleton>
+
+
+    {{else}}
+    {{#if (eq @songList.length 0) }}
+    <Category::Empty
+        @heading={{@heading}}
+        @subHeading={{@subHeading}}>
+    </Category::Empty>
+    {{else}}
+    {{#each @songList as |item index| }}
+    <Category::Item
+        @index={{inc index 1}}
+        @title={{item.title}}
+        @subtitle={{item.subtitle}}
+        @cover={{item.images.coverart}}
+        @item={{item}}
+        @setRoute={{@setRoute}}
+        >
+    </Category::Item>
+    {{/each}}
+    {{/if}}
+
+
+    {{/if}}
+
+
+
+
+</ul>

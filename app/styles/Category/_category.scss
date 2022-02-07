@@ -1,0 +1,206 @@
+.category {
+    padding: 5rem;
+    cursor : pointer;
+
+    &__empty-message {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+        margin-top    : 10rem;
+        gap           : 4rem;
+    }
+
+    &__message--heading {
+        display    : flex;
+        align-items: center;
+        gap        : 1rem;
+    }
+
+    &__header {
+        display        : flex;
+        align-items    : flex-end;
+        width          : 30%;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    &__icon {
+        &--play {
+            height: 3rem;
+            width : 10rem;
+        }
+    }
+
+    .skeleton {
+
+        &__container {
+            display        : flex;
+            width          : 70rem;
+            align-items    : center;
+            justify-content: space-between;
+
+
+        }
+
+        &__number {
+            height          : 1.25rem;
+            width           : 1.45rem;
+            background-color: $grey-light-1;
+            border-radius   : .2rem;
+
+        }
+
+        &__cover {
+            height          : 4rem;
+            width           : 4rem;
+            background-color: $grey-light-1;
+            border-radius   : .4rem;
+
+        }
+
+        &__title {
+            height          : 1.5rem;
+            background-color: $grey-light-1;
+            border-radius   : 1.4rem;
+            width           : 25rem;
+
+
+
+        }
+
+        &__owners {
+            height          : 1.5rem;
+            background-color: $grey-light-1;
+            border-radius   : 1.4rem;
+            width           : 25rem;
+
+        }
+    }
+
+    .record {
+
+        &__container {
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+            width          : 100%;
+            animation      : fade-in 1s ease-in-out 0s forwards;
+        }
+
+        &__cover {
+
+            &--pic {
+                margin-right: 4rem;
+            }
+        }
+
+        &__number {
+            width: 4%;
+        }
+
+        &__title {
+            flex-grow      : 1;
+            color          : $grey-light-1;
+            text-decoration: none;
+            text-align     : left;
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:focus-visible {
+                text-decoration: underline;
+                outline        : none;
+            }
+        }
+
+        &__owners {
+            flex-grow: 1;
+        }
+
+        &__add-fav {
+            margin-right: 4rem;
+            height      : 2rem;
+
+            &:focus {
+                outline: none;
+
+
+                .record__icon {
+                    stroke: $nav-highlight;
+                }
+            }
+
+        }
+
+        &__icon {
+            width: 2rem;
+
+            &--fav {
+                stroke: currentColor;
+
+
+
+                &-active {
+                    fill  : $nav-highlight;
+                    stroke: $nav-highlight;
+                }
+
+                &:hover {
+                    stroke: $nav-highlight;
+                }
+            }
+
+        }
+
+        &__settings {
+            height: 2rem;
+
+            &:focus {
+                outline       : 1px dashed;
+                outline-offset: 4px;
+            }
+
+        }
+
+        &__item {
+            &--grow {
+                max-width: 30%;
+            }
+        }
+
+
+    }
+
+    &__list {
+        text-decoration: none;
+        list-style     : none;
+        color          : $grey-dark;
+
+
+
+        &-item {
+            border       : 1px solid transparent;
+            border-radius: 0.6rem;
+            height       : 5.6rem;
+            position     : relative;
+            display      : flex;
+
+            justify-content: space-between;
+            align-items    : center;
+            padding        : 2rem;
+
+            &:hover,
+            &:focus {
+                background-color: $hover-light-1;
+                color           : $white;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}

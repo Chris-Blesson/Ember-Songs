@@ -1,0 +1,72 @@
+.song {
+    &__layout {}
+
+    &__image {
+        margin     : 5%;
+        display    : flex;
+        gap        : 4rem;
+        align-items: center;
+
+        &--background-pic {
+            background-repeat: none;
+            background-size  : contain;
+            box-shadow       : $card-shadow;
+        }
+    }
+
+    &__details {
+        display       : flex;
+        flex-direction: column;
+        gap           : 6rem;
+    }
+
+    &__lyrics {
+        height    : 25rem;
+        width     : 80%;
+        margin    : auto;
+        overflow-y: scroll;
+        cursor    : pointer;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    &__controls {
+        height          : 6rem;
+        width           : 100%;
+        background-color: $hover-light-1;
+        margin-top      : 4rem;
+        display         : flex;
+        align-items     : center;
+        gap             : 1rem;
+        justify-content : space-evenly;
+
+        &-actions {
+            display        : flex;
+            justify-content: space-between;
+            gap            : 6rem;
+            padding-top    : .5rem;
+        }
+
+        &-progess {
+            width           : 30rem;
+            height          : .4rem;
+            background-color: $grey-light-1;
+            border-radius   : 4rem;
+        }
+
+
+        &-details {
+            display       : flex;
+            flex-direction: column;
+            gap           : 1rem;
+        }
+
+        &-image {
+            &--cover {
+                border-radius: 1.6rem;
+            }
+        }
+    }
+}

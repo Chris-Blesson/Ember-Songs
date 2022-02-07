@@ -1,0 +1,9 @@
+{{#each this.song as |item| }}
+<Song 
+    @background={{item.images.background}} 
+    @cover={{item.images.coverart}}
+    @title={{item.title}}
+    @subtitle={{item.subtitle}}
+>
+</Song>
+{{/each}}

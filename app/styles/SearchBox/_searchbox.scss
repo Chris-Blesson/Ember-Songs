@@ -1,0 +1,30 @@
+.search {
+    &__input {
+        width           : 50rem;
+        line-height     : 4rem;
+        border-radius   : 15px;
+        background-color: $dark-secondary;
+        border          : 2px solid $white;
+        color           : white;
+        font-size       : 1.6rem;
+        padding-left    : 4rem;
+        font-family     : Menlo;
+
+        &:focus,
+        &:focus-visible {
+            outline: none;
+        }
+    }
+
+    &__layout {
+        position   : relative;
+        display    : flex;
+        align-items: center;
+    }
+
+    &__icon {
+        position: absolute;
+        left    : 10px;
+        cursor  : pointer;
+    }
+}
