@@ -1,4 +1,10 @@
 .song {
+    &__layout {
+        height        : 100vh;
+        display       : flex;
+        flex-direction: column;
+    }
+
     &__image {
         margin     : 5%;
         display    : flex;
@@ -19,7 +25,7 @@
     }
 
     &__lyrics {
-        height    : 25rem;
+        min-height: 20rem;
         width     : 80%;
         margin    : auto;
         overflow-y: scroll;
@@ -37,7 +43,6 @@
         margin-top      : 4rem;
         display         : flex;
         align-items     : center;
-        gap             : 1rem;
         justify-content : space-evenly;
 
         &-actions {
