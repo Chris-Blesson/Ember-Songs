@@ -1,0 +1,789 @@
+[
+    {
+        "id": "104382921",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "Ginseng Strip 2002",
+        "url": "https://www.shazam.com/track/104382921/ginseng-strip-2002",
+        "apple_music_url": "https://music.apple.com/gb/album/ginseng-strip-2002/1090125765",
+        "subtitle": "Yung Lean",
+        "images": {
+            "background": "https://is4-ssl.mzstatic.com/image/thumb/Features125/v4/45/87/f9/4587f9b0-8bfd-91f2-f920-a665073f1607/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/e9/c4/bd/e9c4bd59-080d-329b-c763-7a7baabb9377/7071245098315_1.jpg/40x40cc.jpg",
+            "coverarthq": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/e9/c4/bd/e9c4bd59-080d-329b-c763-7a7baabb9377/7071245098315_1.jpg/40x40cc.jpg",
+            "joecolor": "b:1e1f24p:fffdffs:9ccb5et:d1d0d3q:83a852"
+        },
+        "share": {
+            "subject": "Ginseng Strip 2002 - Yung Lean",
+            "text": "I used Shazam to discover Ginseng Strip 2002 by Yung Lean.",
+            "href": "https://www.shazam.com/track/104382921/ginseng-strip-2002",
+            "image": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/e9/c4/bd/e9c4bd59-080d-329b-c763-7a7baabb9377/7071245098315_1.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover Ginseng Strip 2002 by Yung Lean.",
+            "html": "https://www.shazam.com/snippets/email-share/104382921?lang=en&country=GB",
+            "avatar": "https://is4-ssl.mzstatic.com/image/thumb/Features125/v4/45/87/f9/4587f9b0-8bfd-91f2-f920-a665073f1607/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/104382921"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1090125770"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6d/5a/19/6d5a1958-843a-5036-7e51-b8df8f15d039/mzaf_2947175551136950081.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/ginseng-strip-2002/1090125765?i=1090125770&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/ginseng-strip-2002/1090125765?i=1090125770&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_42917790"
+                },
+                "alias": "yung-lean",
+                "id": "42917790",
+                "adamid": "472502104"
+            }
+        ]
+    },
+    {
+        "id": "590362040",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "TO THE MOON",
+        "url": "https://www.shazam.com/track/590362040/to-the-moon",
+        "apple_music_url": "https://music.apple.com/gb/album/to-the-moon/1606815990",
+        "subtitle": "Jnr Choi",
+        "images": {
+            "background": "https://is2-ssl.mzstatic.com/image/thumb/Music126/v4/cf/33/06/cf33063b-fab6-f1fb-f155-6ff8d94172da/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/ba/9f/0d/ba9f0dce-8690-fa89-afbb-f9979bb823bd/886449854943.jpg/40x40cc.jpg",
+            "coverarthq": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/ba/9f/0d/ba9f0dce-8690-fa89-afbb-f9979bb823bd/886449854943.jpg/40x40cc.jpg",
+            "joecolor": "b:000000p:ffffffs:ceebeat:cbcbcbq:a4bcbb"
+        },
+        "share": {
+            "subject": "TO THE MOON - Jnr Choi",
+            "text": "I used Shazam to discover TO THE MOON by Jnr Choi.",
+            "href": "https://www.shazam.com/track/590362040/to-the-moon",
+            "image": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/ba/9f/0d/ba9f0dce-8690-fa89-afbb-f9979bb823bd/886449854943.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover TO THE MOON by Jnr Choi.",
+            "html": "https://www.shazam.com/snippets/email-share/590362040?lang=en&country=GB",
+            "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Music126/v4/cf/33/06/cf33063b-fab6-f1fb-f155-6ff8d94172da/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/590362040"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1606816237"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/63/b1/2b/63b12b49-bd0f-baf0-a0a8-e9e8ab904e2d/mzaf_8313920365554084163.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/to-the-moon/1606815990?i=1606816237&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/to-the-moon/1606815990?i=1606816237&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": true,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_205214420"
+                },
+                "alias": "jnr-choi",
+                "id": "205214420",
+                "adamid": "1437443860"
+            }
+        ]
+    },
+    {
+        "id": "515573510",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "I Look Good",
+        "url": "https://www.shazam.com/track/515573510/i-look-good",
+        "apple_music_url": "https://music.apple.com/gb/album/i-look-good/1510618591",
+        "subtitle": "O.T. Genasis",
+        "images": {
+            "background": "https://is5-ssl.mzstatic.com/image/thumb/Music116/v4/80/6f/c9/806fc9b9-55d5-8c56-e3aa-28ad19a49ca9/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/53/91/97/539197d2-98ce-168d-ccca-22c1d8198a3e/075679815934.jpg/40x40cc.jpg",
+            "coverarthq": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/53/91/97/539197d2-98ce-168d-ccca-22c1d8198a3e/075679815934.jpg/40x40cc.jpg",
+            "joecolor": "b:ffa623p:000000s:251405t:332107q:51310b"
+        },
+        "share": {
+            "subject": "I Look Good - O.T. Genasis",
+            "text": "I used Shazam to discover I Look Good by O.T. Genasis.",
+            "href": "https://www.shazam.com/track/515573510/i-look-good",
+            "image": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/53/91/97/539197d2-98ce-168d-ccca-22c1d8198a3e/075679815934.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover I Look Good by O.T. Genasis.",
+            "html": "https://www.shazam.com/snippets/email-share/515573510?lang=en&country=GB",
+            "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Music116/v4/80/6f/c9/806fc9b9-55d5-8c56-e3aa-28ad19a49ca9/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/515573510"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1510618594"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/25/a0/85/25a085ef-18f2-73f4-8bf7-864fc5eabea2/mzaf_12331604093969932107.plus.aac.p.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/i-look-good/1510618591?i=1510618594&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/i-look-good/1510618591?i=1510618594&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_44086981"
+                },
+                "alias": "ot-genasis",
+                "id": "44086981",
+                "adamid": "811744627"
+            }
+        ]
+    },
+    {
+        "id": "591419486",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "Captain",
+        "url": "https://www.shazam.com/track/591419486/captain",
+        "apple_music_url": "https://music.apple.com/gb/album/captain/1594406575",
+        "subtitle": "Nutcase22",
+        "images": {
+            "background": "https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/4d/5b/dc/4d5bdcaf-1b20-aa03-2c21-68f5bc2b88c3/190296351907.jpg/40x40cc.jpg",
+            "coverart": "https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/4d/5b/dc/4d5bdcaf-1b20-aa03-2c21-68f5bc2b88c3/190296351907.jpg/40x40cc.jpg",
+            "coverarthq": "https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/4d/5b/dc/4d5bdcaf-1b20-aa03-2c21-68f5bc2b88c3/190296351907.jpg/40x40cc.jpg",
+            "joecolor": "b:25292cp:ffffffs:b0bdd1t:d3d4d4q:949fb0"
+        },
+        "share": {
+            "subject": "Captain - Nutcase22",
+            "text": "I used Shazam to discover Captain by Nutcase22.",
+            "href": "https://www.shazam.com/track/591419486/captain",
+            "image": "https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/4d/5b/dc/4d5bdcaf-1b20-aa03-2c21-68f5bc2b88c3/190296351907.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover Captain by Nutcase22.",
+            "html": "https://www.shazam.com/snippets/email-share/591419486?lang=en&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/591419486"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1594406577"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/9b/6f/cd/9b6fcdde-9a8d-d077-fba8-9b882ca7410f/mzaf_17806149681093815446.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/captain/1594406575?i=1594406577&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/captain/1594406575?i=1594406577&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": true,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_213830244"
+                },
+                "alias": "nutcase22",
+                "id": "213830244",
+                "adamid": "1595143433"
+            }
+        ]
+    },
+    {
+        "id": "578340247",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "INDUSTRY BABY",
+        "url": "https://www.shazam.com/track/578340247/industry-baby",
+        "apple_music_url": "https://music.apple.com/gb/album/industry-baby/1582660720",
+        "subtitle": "Lil Nas X & Jack Harlow",
+        "images": {
+            "background": "https://is5-ssl.mzstatic.com/image/thumb/Features125/v4/07/89/a3/0789a358-0ee5-6f13-8a54-8dc1a113066a/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/9f/cf/dc/9fcfdc19-7a61-3836-defb-35d817529b25/886449511440.jpg/40x40cc.jpg",
+            "coverarthq": "https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/9f/cf/dc/9fcfdc19-7a61-3836-defb-35d817529b25/886449511440.jpg/40x40cc.jpg",
+            "joecolor": "b:286a80p:f9eae3s:fbeacct:cfd0cfq:d1d1bc"
+        },
+        "share": {
+            "subject": "INDUSTRY BABY - Lil Nas X & Jack Harlow",
+            "text": "I used Shazam to discover INDUSTRY BABY by Lil Nas X & Jack Harlow.",
+            "href": "https://www.shazam.com/track/578340247/industry-baby",
+            "image": "https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/9f/cf/dc/9fcfdc19-7a61-3836-defb-35d817529b25/886449511440.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover INDUSTRY BABY by Lil Nas X & Jack Harlow.",
+            "html": "https://www.shazam.com/snippets/email-share/578340247?lang=en&country=GB",
+            "avatar": "https://is5-ssl.mzstatic.com/image/thumb/Features125/v4/07/89/a3/0789a358-0ee5-6f13-8a54-8dc1a113066a/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/578340247"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1582660724"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0c/8f/87/0c8f8799-4a14-5881-3bb1-d39ee7094b58/mzaf_4001744405192523627.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/industry-baby/1582660720?i=1582660724&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/industry-baby/1582660720?i=1582660724&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": true,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_205070255"
+                },
+                "alias": "lil-nas-x",
+                "id": "205070255",
+                "adamid": "1400730578"
+            },
+            {
+                "follow": {
+                    "followkey": "A_202109595"
+                },
+                "alias": "jack-harlow",
+                "id": "202109595",
+                "adamid": "1047679432"
+            }
+        ]
+    },
+    {
+        "id": "577235374",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "edamame",
+        "url": "https://www.shazam.com/track/577235374/edamame",
+        "apple_music_url": "https://music.apple.com/gb/album/edamame-feat-rich-brian/1584244262",
+        "subtitle": "bbno$ Feat. Rich Brian",
+        "images": {
+            "background": "https://is4-ssl.mzstatic.com/image/thumb/Features125/v4/63/fd/72/63fd72fb-9e2d-1f81-3b27-858a81651e1d/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/dc/31/0f/dc310fea-277a-c6f6-4163-49a415400873/653738610920.png/40x40cc.jpg",
+            "coverarthq": "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/dc/31/0f/dc310fea-277a-c6f6-4163-49a415400873/653738610920.png/40x40cc.jpg",
+            "joecolor": "b:e4e0e1p:160a0fs:3b2e29t:3f3539q:5d524e"
+        },
+        "share": {
+            "subject": "edamame - bbno$ Feat. Rich Brian",
+            "text": "I used Shazam to discover edamame by bbno$ Feat. Rich Brian.",
+            "href": "https://www.shazam.com/track/577235374/edamame",
+            "image": "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/dc/31/0f/dc310fea-277a-c6f6-4163-49a415400873/653738610920.png/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover edamame by bbno$ Feat. Rich Brian.",
+            "html": "https://www.shazam.com/snippets/email-share/577235374?lang=en&country=GB",
+            "avatar": "https://is4-ssl.mzstatic.com/image/thumb/Features125/v4/63/fd/72/63fd72fb-9e2d-1f81-3b27-858a81651e1d/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/577235374"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1584244732"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/08/ab/a908ab0f-b809-d971-a4b0-f7845ce62799/mzaf_8569206868115500099.plus.aac.p.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/edamame-feat-rich-brian/1584244262?i=1584244732&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/edamame-feat-rich-brian/1584244262?i=1584244732&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": true,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_203495705"
+                },
+                "alias": "bbno",
+                "id": "203495705",
+                "adamid": "1161580951"
+            }
+        ]
+    },
+    {
+        "id": "565785367",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "น้ำแดงน้ำส้ม",
+        "url": "https://www.shazam.com/track/565785367/-",
+        "apple_music_url": "https://music.apple.com/gb/album/%E0%B8%99-%E0%B8%B3%E0%B9%81%E0%B8%94%E0%B8%87%E0%B8%99-%E0%B8%B3%E0%B8%AA-%E0%B8%A1/1592809605",
+        "subtitle": "JV.JARVIS",
+        "images": {
+            "background": "https://is3-ssl.mzstatic.com/image/thumb/Music126/v4/bd/72/29/bd7229dd-8d9a-8950-6460-aa8b552e82b0/cover.jpg/40x40cc.jpg",
+            "coverart": "https://is3-ssl.mzstatic.com/image/thumb/Music126/v4/bd/72/29/bd7229dd-8d9a-8950-6460-aa8b552e82b0/cover.jpg/40x40cc.jpg",
+            "coverarthq": "https://is3-ssl.mzstatic.com/image/thumb/Music126/v4/bd/72/29/bd7229dd-8d9a-8950-6460-aa8b552e82b0/cover.jpg/40x40cc.jpg",
+            "joecolor": "b:fca500p:000000s:431f00t:322100q:683a00"
+        },
+        "share": {
+            "subject": "น้ำแดงน้ำส้ม - JV.JARVIS",
+            "text": "I used Shazam to discover น้ำแดงน้ำส้ม by JV.JARVIS.",
+            "href": "https://www.shazam.com/track/565785367/-",
+            "image": "https://is3-ssl.mzstatic.com/image/thumb/Music126/v4/bd/72/29/bd7229dd-8d9a-8950-6460-aa8b552e82b0/cover.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover น้ำแดงน้ำส้ม by JV.JARVIS.",
+            "html": "https://www.shazam.com/snippets/email-share/565785367?lang=en&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/565785367"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1592809611"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/42/e7/be/42e7be8b-78b7-5fc3-c4d5-62e4ee24fc45/mzaf_10563065852140831433.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/%E0%B8%99-%E0%B8%B3%E0%B9%81%E0%B8%94%E0%B8%87%E0%B8%99-%E0%B8%B3%E0%B8%AA-%E0%B8%A1/1592809605?i=1592809611&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/%E0%B8%99-%E0%B8%B3%E0%B9%81%E0%B8%94%E0%B8%87%E0%B8%99-%E0%B8%B3%E0%B8%AA-%E0%B8%A1/1592809605?i=1592809611&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": true,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": null
+    },
+    {
+        "id": "584725728",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "Big Energy",
+        "url": "https://www.shazam.com/track/584725728/big-energy",
+        "apple_music_url": "https://music.apple.com/gb/album/big-energy/1585434932",
+        "subtitle": "Latto",
+        "images": {
+            "background": "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/56/91/5d/56915d4d-ce19-4d28-b541-46977b6c0b1a/886449499885.jpg/40x40cc.jpg",
+            "coverart": "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/56/91/5d/56915d4d-ce19-4d28-b541-46977b6c0b1a/886449499885.jpg/40x40cc.jpg",
+            "coverarthq": "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/56/91/5d/56915d4d-ce19-4d28-b541-46977b6c0b1a/886449499885.jpg/40x40cc.jpg",
+            "joecolor": "b:090a02p:fae27es:f7e064t:cab765q:c8b550"
+        },
+        "share": {
+            "subject": "Big Energy - Latto",
+            "text": "I used Shazam to discover Big Energy by Latto.",
+            "href": "https://www.shazam.com/track/584725728/big-energy",
+            "image": "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/56/91/5d/56915d4d-ce19-4d28-b541-46977b6c0b1a/886449499885.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover Big Energy by Latto.",
+            "html": "https://www.shazam.com/snippets/email-share/584725728?lang=en&country=GB",
+            "snapchat": "https://www.shazam.com/partner/sc/track/584725728"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1585434935"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0a/75/e9/0a75e9a9-99a0-3a61-6767-57ae9ed1206c/mzaf_7753550199920372318.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/big-energy/1585434932?i=1585434935&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/big-energy/1585434932?i=1585434935&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": true,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": null
+    },
+    {
+        "id": "315646975",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "One Dance",
+        "url": "https://www.shazam.com/track/315646975/one-dance",
+        "apple_music_url": "https://music.apple.com/gb/album/one-dance-feat-wizkid-kyla/1440841363",
+        "subtitle": "Drake Feat. WizKid & Kyla",
+        "images": {
+            "background": "https://is3-ssl.mzstatic.com/image/thumb/Features125/v4/b2/bd/8b/b2bd8b72-6528-28e3-7e5f-d637c9c89f4e/mza_17710009188773268806.png/800x800cc.jpg",
+            "coverart": "https://is5-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/40x40cc.jpg",
+            "coverarthq": "https://is5-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/40x40cc.jpg",
+            "joecolor": "b:132029p:bfcdd5s:d0c2b4t:9caab3q:aaa198"
+        },
+        "share": {
+            "subject": "One Dance - Drake Feat. WizKid & Kyla",
+            "text": "I used Shazam to discover One Dance by Drake Feat. WizKid & Kyla.",
+            "href": "https://www.shazam.com/track/315646975/one-dance",
+            "image": "https://is5-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover One Dance by Drake Feat. WizKid & Kyla.",
+            "html": "https://www.shazam.com/snippets/email-share/315646975?lang=en&country=GB",
+            "avatar": "https://is3-ssl.mzstatic.com/image/thumb/Features125/v4/b2/bd/8b/b2bd8b72-6528-28e3-7e5f-d637c9c89f4e/mza_17710009188773268806.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/315646975"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1440841384"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/78/52/09/785209ca-6bb3-a1ad-46fb-95c666901be2/mzaf_14435552344986796123.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/one-dance-feat-wizkid-kyla/1440841363?i=1440841384&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/one-dance-feat-wizkid-kyla/1440841363?i=1440841384&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_10100284"
+                },
+                "alias": "drake",
+                "id": "10100284",
+                "adamid": "271256"
+            }
+        ]
+    },
+    {
+        "id": "41264695",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "Bananza (Belly Dancer)",
+        "url": "https://www.shazam.com/track/41264695/bananza-belly-dancer",
+        "apple_music_url": "https://music.apple.com/gb/album/bananza-belly-dancer/1444310856",
+        "subtitle": "Akon",
+        "images": {
+            "background": "https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/40/9f/ca/409fca16-b192-514d-2cf6-bdd4a054c20f/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/3b/bc/0c/3bbc0c38-bd21-c035-5a96-aba2da32567b/00602498837450.rgb.jpg/40x40cc.jpg",
+            "coverarthq": "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/3b/bc/0c/3bbc0c38-bd21-c035-5a96-aba2da32567b/00602498837450.rgb.jpg/40x40cc.jpg",
+            "joecolor": "b:391112p:fffefds:ea7831t:d7cecdq:c7632a"
+        },
+        "share": {
+            "subject": "Bananza (Belly Dancer) - Akon",
+            "text": "I used Shazam to discover Bananza (Belly Dancer) by Akon.",
+            "href": "https://www.shazam.com/track/41264695/bananza-belly-dancer",
+            "image": "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/3b/bc/0c/3bbc0c38-bd21-c035-5a96-aba2da32567b/00602498837450.rgb.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover Bananza (Belly Dancer) by Akon.",
+            "html": "https://www.shazam.com/snippets/email-share/41264695?lang=en&country=GB",
+            "avatar": "https://is4-ssl.mzstatic.com/image/thumb/Music115/v4/40/9f/ca/409fca16-b192-514d-2cf6-bdd4a054c20f/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/41264695"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1444310859"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/c6/51/a8c65124-e589-3af6-8e6b-39cac1f22603/mzaf_17678250757703628488.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/bananza-belly-dancer/1444310856?i=1444310859&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/bananza-belly-dancer/1444310856?i=1444310859&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_10095243"
+                },
+                "alias": "akon",
+                "id": "10095243",
+                "adamid": "3261325"
+            }
+        ]
+    }
+]

@@ -1,11 +1,11 @@
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'music-player',
     environment,
     rootURL: '/Ember-Songs',
-    // rootUrl:'/',
+    // rootUrl: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -50,6 +50,7 @@ module.exports = function(environment) {
 
   ENV.RAPID_API_KEY = "";
   ENV.RAPID_API_HOST = "";
+  ENV.FIREBASE_AUTH = process.env.FIREBASE_AUTH;
 
   return ENV;
 };

@@ -1,7 +1,8 @@
-import RapidAPIAdapter from "./rapid-api";
+import ENV from 'music-player/config/environment';
+import FirebaseAdapter from "./firebase";
 
-export default class DanceAdapter extends RapidAPIAdapter {
+export default class DanceAdapter extends FirebaseAdapter {
     pathForType(){
-        return 'genre-world/dance';
+        return `dance.json?auth=${ENV.FIREBASE_AUTH}`;
     }
 }
