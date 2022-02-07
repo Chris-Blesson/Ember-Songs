@@ -12,8 +12,7 @@ export default class NavBarComponent extends Component {
     }
 
     @action
-    currentFocused(currentFocusedItem,event) {
-        
+    currentFocused(currentFocusedItem) {
         this.currentFocus = currentFocusedItem;
     }
 
