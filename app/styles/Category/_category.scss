@@ -66,6 +66,9 @@
             background-color: $grey-light-1;
             border-radius   : 1.4rem;
             width           : 25rem;
+            background-color: transparent;
+            border          : none;
+            cursor          : pointer;
 
 
 
@@ -102,10 +105,13 @@
         }
 
         &__title {
-            flex-grow      : 1;
-            color          : $grey-light-1;
-            text-decoration: none;
-            text-align     : left;
+            flex-grow       : 1;
+            color           : $grey-light-1;
+            text-decoration : none;
+            text-align      : left;
+            background-color: transparent;
+            border          : none;
+            cursor          : pointer;
 
             &:hover,
             &:focus,
