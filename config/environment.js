@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'music-player',
     environment,
-    rootURL: '/Ember-Songs/home',
+    rootURL: '/Ember-Songs',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
