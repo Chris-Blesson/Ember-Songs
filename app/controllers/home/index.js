@@ -28,6 +28,7 @@ export default class HomeIndexController extends Controller {
 
     @action
     setRoute(id) {
+
         let trackedRoute = "home";
         if (this.currentFocus === '1') {
             trackedRoute += '.pop';
@@ -38,8 +39,8 @@ export default class HomeIndexController extends Controller {
         else {
             trackedRoute += '.hits';
         }
-
-         this.router.transitionTo(trackedRoute,id);
+        console.log(trackedRoute, id);
+        this.router.transitionTo(trackedRoute, id);
     }
 
 

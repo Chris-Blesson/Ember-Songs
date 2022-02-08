@@ -11,8 +11,11 @@
 
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/music-player.css">
+    <link rel="preconnect" href="https://images.shazam.com/">
+    <link rel="pre-fetch" href="https://songs-12097-default-rtdb.firebaseio.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     
 
@@ -20,6 +23,7 @@
   </head>
   <body>
     {{content-for "body"}}
+    
 
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/music-player.js"></script>
