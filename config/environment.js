@@ -6,7 +6,7 @@ module.exports = function (environment) {
     environment,
     rootURL: '/Ember-Songs',
     // rootUrl: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

@@ -1,8 +1,9 @@
 import Route from '@ember/routing/route';
 
-export default class HomeHitsRoute extends Route {
+export default class MusicHitsRoute extends Route {
      model(params) {
-        return (this.store.query('hit', { id: (params.hits_id) }));
+        return this.store.peekAll('hit')
+            .filterBy('id', params.hits_id);
     }
 
     setupController(controller, model) {

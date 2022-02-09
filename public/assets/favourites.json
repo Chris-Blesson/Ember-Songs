@@ -1,0 +1,235 @@
+[{
+        "id": "580442939",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "Do It to It",
+        "url": "https://www.shazam.com/track/580442939/do-it-to-it",
+        "apple_music_url": "https://music.apple.com/gb/album/do-it-to-it-feat-cherish/1579983158",
+        "subtitle": "Acraze Feat. Cherish",
+        "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/78/92/297892ac-214f-b047-c963-e836d05a8b6d/pr_source.png/800x800cc.jpg",
+            "coverart": "https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/3b/da/58/3bda58c3-4cb9-b30d-b455-035010707df9/21UMGIM70915.rgb.jpg/40x40cc.jpg",
+            "coverarthq": "https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/3b/da/58/3bda58c3-4cb9-b30d-b455-035010707df9/21UMGIM70915.rgb.jpg/40x40cc.jpg",
+            "joecolor": "b:f2ebf2p:110a08s:321d13t:3e3737q:58463f"
+        },
+        "share": {
+            "subject": "Do It to It - Acraze Feat. Cherish",
+            "text": "I used Shazam to discover Do It to It by Acraze Feat. Cherish.",
+            "href": "https://www.shazam.com/track/580442939/do-it-to-it",
+            "image": "https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/3b/da/58/3bda58c3-4cb9-b30d-b455-035010707df9/21UMGIM70915.rgb.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover Do It to It by Acraze Feat. Cherish.",
+            "html": "https://www.shazam.com/snippets/email-share/580442939?lang=en&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/29/78/92/297892ac-214f-b047-c963-e836d05a8b6d/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/580442939"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1579983161"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/9d/10/17/9d1017f6-b4da-6d20-4a16-0051fbc640a5/mzaf_18002530859004185072.plus.aac.ep.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/do-it-to-it-feat-cherish/1579983158?i=1579983161&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/do-it-to-it-feat-cherish/1579983158?i=1579983161&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_204767325"
+                },
+                "alias": "acraze",
+                "id": "204767325",
+                "adamid": "1262931166"
+            }
+        ]
+    },
+    {
+        "id": "577551383",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "Where Are You Now",
+        "url": "https://www.shazam.com/track/577551383/where-are-you-now",
+        "apple_music_url": "https://music.apple.com/gb/album/where-are-you-now/1576395044",
+        "subtitle": "Lost Frequencies & Calum Scott",
+        "images": {
+            "background": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/b2/39/01/b23901a3-b03a-1c4e-16aa-03057fa64fee/mzl.wwmpmpuv.jpg/800x800cc.jpg",
+            "coverart": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/25/79/2a/25792aaa-fe16-c718-27fa-c3b1781780fb/886449449668.jpg/40x40cc.jpg",
+            "coverarthq": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/25/79/2a/25792aaa-fe16-c718-27fa-c3b1781780fb/886449449668.jpg/40x40cc.jpg",
+            "joecolor": "b:f19c77p:220b01s:411d05t:4b2819q:64361c"
+        },
+        "share": {
+            "subject": "Where Are You Now - Lost Frequencies & Calum Scott",
+            "text": "I used Shazam to discover Where Are You Now by Lost Frequencies & Calum Scott.",
+            "href": "https://www.shazam.com/track/577551383/where-are-you-now",
+            "image": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/25/79/2a/25792aaa-fe16-c718-27fa-c3b1781780fb/886449449668.jpg/40x40cc.jpg",
+            "twitter": "I used @Shazam to discover Where Are You Now by Lost Frequencies & Calum Scott.",
+            "html": "https://www.shazam.com/snippets/email-share/577551383?lang=en&country=GB",
+            "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/b2/39/01/b23901a3-b03a-1c4e-16aa-03057fa64fee/mzl.wwmpmpuv.jpg/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/577551383"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "actions": [
+                {
+                    "name": "apple",
+                    "type": "applemusicplay",
+                    "id": "1576395046"
+                },
+                {
+                    "name": "apple",
+                    "type": "uri",
+                    "uri": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/de/6e/91/de6e911b-258a-ec52-1247-4d73ae06f0b2/mzaf_14014090408364414231.plus.aac.p.m4a"
+                }
+            ],
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/gb/album/where-are-you-now/1576395044?i=1576395046&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:deeplink",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/gb/album/where-are-you-now/1576395044?i=1576395046&mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_45851447"
+                },
+                "alias": "lost-frequencies",
+                "id": "45851447",
+                "adamid": "877792512"
+            },
+            {
+                "follow": {
+                    "followkey": "A_202497574"
+                },
+                "alias": "calum-scott",
+                "id": "202497574",
+                "adamid": "190876590"
+            }
+        ]
+    },
+    {
+        "id": "76023280",
+        "type": "MUSIC",
+        "layout": "5",
+        "title": "Tu Me Manques (Missing You)",
+        "url": "https://www.shazam.com/track/76023280/tu-me-manques-missing-you",
+        "apple_music_url": "https://music.apple.com/subscribe",
+        "subtitle": "Mia Martina",
+        "images": {
+            "background": "https://is2-ssl.mzstatic.com/image/thumb/Features125/v4/6c/e4/9e/6ce49e39-7617-2bcb-940f-8fc3a4ff0eae/pr_source.png/800x800cc.jpg",
+            "coverart": "https://images.shazam.com/coverart/t76023280_s400.jpg",
+            "coverarthq": "https://images.shazam.com/coverart/t76023280_s800.jpg"
+        },
+        "share": {
+            "subject": "Tu Me Manques (Missing You) - Mia Martina",
+            "text": "I used Shazam to discover Tu Me Manques (Missing You) by Mia Martina.",
+            "href": "https://www.shazam.com/track/76023280/tu-me-manques-missing-you",
+            "image": "https://images.shazam.com/coverart/t76023280_s400.jpg",
+            "twitter": "I used @Shazam to discover Tu Me Manques (Missing You) by Mia Martina.",
+            "html": "https://www.shazam.com/snippets/email-share/76023280?lang=en&country=GB",
+            "avatar": "https://is2-ssl.mzstatic.com/image/thumb/Features125/v4/6c/e4/9e/6ce49e39-7617-2bcb-940f-8fc3a4ff0eae/pr_source.png/800x800cc.jpg",
+            "snapchat": "https://www.shazam.com/partner/sc/track/76023280"
+        },
+        "hub": {
+            "type": "APPLEMUSIC",
+            "image": "https://images.shazam.com/static/icons/hub/web/v5/applemusic.png",
+            "options": [
+                {
+                    "caption": "OPEN",
+                    "actions": [
+                        {
+                            "name": "hub:applemusic:subscribe",
+                            "type": "applemusicopen",
+                            "uri": "https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        },
+                        {
+                            "name": "hub:applemusic:subscribe",
+                            "type": "uri",
+                            "uri": "https://music.apple.com/subscribe?mttnagencyid=s2n&mttnsiteid=125115&mttn3pid=Apple-Shazam&mttnsub1=Shazam_web&mttnsub2=5348615A-616D-3235-3830-44754D6D5973&itscg=30201&app=music&itsct=Shazam_web"
+                        }
+                    ],
+                    "beacondata": {
+                        "type": "open",
+                        "providername": "applemusic"
+                    },
+                    "image": "https://images.shazam.com/static/icons/hub/web/v5/overflow-open-option.png",
+                    "type": "open",
+                    "listcaption": "Open in Apple Music",
+                    "overflowimage": "https://images.shazam.com/static/icons/hub/web/v5/applemusic-overflow.png",
+                    "colouroverflowimage": false,
+                    "providername": "applemusic"
+                }
+            ],
+            "explicit": false,
+            "displayname": "APPLE MUSIC"
+        },
+        "artists": [
+            {
+                "follow": {
+                    "followkey": "A_40927686"
+                },
+                "alias": "mia-martina",
+                "id": "40927686",
+                "adamid": "385172659"
+            }
+        ]
+    }]

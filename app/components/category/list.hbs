@@ -7,13 +7,13 @@
 
 
     {{else}}
-    {{#if (eq @songList.length 0) }}
+    {{#if (eq this.songs.length 0) }}
     <Category::Empty
         @heading={{@heading}}
         @subHeading={{@subHeading}}>
     </Category::Empty>
     {{else}}
-    {{#each @songList as |item index| }}
+    {{#each this.songs as |item index| }}
     <Category::Item
         @index={{inc index 1}}
         @title={{item.title}}

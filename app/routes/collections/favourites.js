@@ -1,13 +1,20 @@
 import Route from '@ember/routing/route';
-import { inject as service } from '@ember/service'
+
 export default class CollectionsFavouritesRoute extends Route {
-    @service("favourites") favouriteListService;
-    model() {
-        return this.favouriteListService.favourites;
-    }
-    resetController(controller, isExiting) {
+
+  model() {
+    return this.store.findAll('favourite')
+  }
+  
+  setupController(controller, model) {
+    super.setupController(controller, model);
+    controller.set('favouriteSongs', model);
+  }
+
+  resetController(controller, isExiting) {
     if (isExiting) {
       controller.resetData();
     }
   }
+
 }

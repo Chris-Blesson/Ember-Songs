@@ -1,11 +1,16 @@
 import Route from '@ember/routing/route';
 
 export default class IndexRoute extends Route {
-    async model() {
+    
+
+    async afterModel() {
+        super.afterModel(...arguments);
         let popList = await this.store.findAll('pop');
         let hitsList = await this.store.findAll('hit');
         let danceList = await this.store.findAll('dance');
         return { popList, danceList, hitsList };
+
+
     }
 
     setupController(controller, model) {
