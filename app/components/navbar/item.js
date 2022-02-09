@@ -6,6 +6,7 @@ export default class NavbarItemComponent extends Component {
     @tracked isFocused = false;
 
     get activeState() {
+        
         if (this.args.title === this.args.activeItem) {
             this.isActive = true;
         }

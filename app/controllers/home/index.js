@@ -39,7 +39,6 @@ export default class HomeIndexController extends Controller {
         else {
             trackedRoute += '.hits';
         }
-        console.log(trackedRoute, id);
         this.router.transitionTo(trackedRoute, id);
     }
 
