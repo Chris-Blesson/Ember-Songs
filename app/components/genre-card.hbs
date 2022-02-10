@@ -1,9 +1,14 @@
-<div tabindex="0" {{on "click" (fn @updateCurrentFocus @type)}} class="genre-card genre-card__background--{{@type}} {{if this.scaleStatus "genre-card--scaled" ""}}">
+<div tabindex="0" {{on "click" (fn @updateCurrentFocus @type)}} class="genre-card
+     genre-card__background--{{@type}} {{if this.scaleStatus "genre-card--scaled""" }}">
     <div class="genre-card__container">
         <h2 class="genre-card__category">
+            {{#unless @renderStatus}}
             {{@title}}
+            {{/unless}}
         </h2>
-        <div class="genre-card__background-image genre-card__background-image--{{@type}}"></div>
+        {{#unless @renderStatus}}
+            <div class="genre-card__background-image genre-card__background-image--{{@type}}"></div>
+        {{/unless}}
+
     </div>
 </div>
- 

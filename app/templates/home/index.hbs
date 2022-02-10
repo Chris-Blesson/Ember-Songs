@@ -3,18 +3,21 @@
         <div class="genre__layout">
             <GenreCard
                 @title="Pop hits"
+                @renderStatus={{this.renderStatus}}
                 @type="1"
                 @currentFocus={{this.currentFocus}}
                 @updateCurrentFocus={{this.updateCurrentFocus}}>
             </GenreCard>
             <GenreCard
                 @title="Dance beats"
+                @renderStatus={{this.renderStatus}}
                 @type="2"
                 @currentFocus={{this.currentFocus}}
                 @updateCurrentFocus={{this.updateCurrentFocus}}>
             </GenreCard>
             <GenreCard
                 @title="Top hits"
+                @renderStatus={{this.renderStatus}}
                 @type="3"
                 @currentFocus={{this.currentFocus}}
                 @updateCurrentFocus={{this.updateCurrentFocus}}>

@@ -1,0 +1,27 @@
+[
+    {
+        "image": "https://assets6.freshservice.com/assets/logos/misc/logo-20f939d4399cca2b98e8dab21b0302aa9c9d53ee2837a43d48d9918e35764fb3.svg",
+        "title": "/freshservice-ticket",
+        "subHeading": "Freshservice - create a ticket in Freshservice"
+    },
+    {
+        "image": "https://indfassetsblue.freshdesk.com/production/a/assets/images/favicon-2811c0765af87aa92d38a2458e07b307845ab45fafc0d702cf6c565b03ca4616.ico",
+        "title": "/freshdesk-ticket",
+        "subHeading": "Freshdesk - create a ticket in Freshdesk"
+    },
+    {
+        "image": "https://assets6.freshservice.com/assets/logos/misc/logo-20f939d4399cca2b98e8dab21b0302aa9c9d53ee2837a43d48d9918e35764fb3.svg",
+        "title": "/freshservice-update-ticket",
+        "subHeading": "Freshservice - update a ticket in Freshservice"
+    },
+    {
+        "image": "https://assets6.freshservice.com/assets/logos/misc/logo-20f939d4399cca2b98e8dab21b0302aa9c9d53ee2837a43d48d9918e35764fb3.svg",
+        "title": "/freshservice-delete-ticket",
+        "subHeading": "Freshservice - delete a ticket in Freshservice"
+    },
+    {
+        "image": "https://indfassetsblue.freshdesk.com/production/a/assets/images/favicon-2811c0765af87aa92d38a2458e07b307845ab45fafc0d702cf6c565b03ca4616.ico",
+        "title": "/freshdesk-update-ticket",
+        "subHeading": "Freshdesk - update a ticket in Freshdesk"
+    }
+]

@@ -9,7 +9,7 @@
         box-shadow      : $card-shadow;
         cursor          : pointer;
         font-family     : 'Source Sans Pro', sans-serif;
-
+        
         transition: all .8s;
         overflow  : hidden;
 
@@ -29,19 +29,19 @@
             text-transform : uppercase;
             margin-top     : 3rem;
             color          : $dark-secondary;
-            
+
         }
 
 
         &__background {
 
             &-image {
-                height                    : 20rem;
-                width                     : 20rem;
-                position                  : relative;
-                margin                    : auto;
-                top                       : 3.75rem;
-                animation                 : translate-bottom-up .7s ease-in-out;
+                height          : 20rem;
+                width           : 20rem;
+                position        : relative;
+                margin          : auto;
+                top             : 3.75rem;
+                animation       : translate-bottom-up .7s ease-in-out;
                 
 
 
