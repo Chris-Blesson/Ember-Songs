@@ -6,6 +6,7 @@ export default class CategoryItemComponent extends Component {
 
     @tracked isFav = this.getInitialStatus();
     @service("favourites") favouriteListService;
+    @service store;
     @action
     toggleFav() {
         if (!this.isFav) {
@@ -35,8 +36,11 @@ export default class CategoryItemComponent extends Component {
         this.favouriteListService.addItemsToFavourite(this.args.item);
     }
 
-    getInitialStatus() {
-        return this.favouriteListService.favourites.any(item =>
+    async getInitialStatus() {
+        let favourites = await this.store.findAll('favourite');
+        favourites.map((item) => console.log(item.id, this.args.item.id));
+        
+        this.isFav = favourites.any(item =>
             item.id === this.args.item.id
         );
     }
