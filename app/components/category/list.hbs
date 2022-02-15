@@ -14,19 +14,18 @@
     {{#each this.songs as |item index| }}
     <Category::Item
         @index={{inc index 1}}
+        @favourites={{this.favouriteList}}
         @title={{item.title}}
         @subtitle={{item.subtitle}}
         @cover={{item.images.coverart}}
         @item={{item}}
-        @setRoute={{@setRoute}}
-        >
+        @setRoute={{@setRoute}}>
     </Category::Item>
     {{/each}}
     {{/if}}
 
 
     {{/if}}
-
 
 
 

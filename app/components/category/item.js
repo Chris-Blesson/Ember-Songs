@@ -4,11 +4,21 @@ import { tracked } from '@glimmer/tracking';
 import { inject as service } from '@ember/service'
 export default class CategoryItemComponent extends Component {
 
-    @tracked isFav = this.getInitialStatus();
-    @service("favourites") favouriteListService;
+    constructor() {
+        super(...arguments);
+        this.getInitialStatus()
+    }
+
+    @tracked isFav = false;
     @service store;
+    @service("favourites") favouriteListService;
+    @service("firebase") firebaseService;
+
     @action
     toggleFav() {
+        if (this.isFav) {
+            this.removeFromFavourites();
+        }
         if (!this.isFav) {
             this.addFavourites();
         }
@@ -33,16 +43,27 @@ export default class CategoryItemComponent extends Component {
     }
 
     addFavourites() {
+        const { id, title, subtitle, images } = this.args.item;
+        this.firebaseService.addFavourites({
+            [id]: { id, title, subtitle, images }
+        })
         this.favouriteListService.addItemsToFavourite(this.args.item);
     }
 
-    async getInitialStatus() {
-        let favourites = await this.store.findAll('favourite');
-        favourites.map((item) => console.log(item.id, this.args.item.id));
-        
-        this.isFav = favourites.any(item =>
-            item.id === this.args.item.id
-        );
+    removeFromFavourites() {
+        const { id } = this.args.item;
+        this.firebaseService.removeFavourites(id);
+    }
+    @action
+    getInitialStatus() {
+        if (this.args.favourites) {
+            this.isFav = this.args.favourites.any(item =>
+                item.id === this.args.item.id
+            );
+        }
+        else {
+            this.isFav = false;
+        }
     }
 
 
