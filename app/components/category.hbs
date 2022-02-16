@@ -15,8 +15,14 @@
             </span>
         </header>
         <section class="category__section">
-            <Category::List @setRoute={{@setRoute}} @heading={{@heading}}
-                        @subHeading={{@subHeading}} @renderStatus={{@renderStatus}} @songList={{@songList}}>
+            <Category::List 
+            @setRoute={{@setRoute}} 
+            @heading={{@heading}}
+            @subHeading={{@subHeading}} 
+            @renderStatus={{@renderStatus}}
+            @songList={{@songList}}
+            @currentFocus={{@currentFocus}}
+        >
             </Category::List>
         </section>
         </div>

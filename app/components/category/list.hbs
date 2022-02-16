@@ -12,14 +12,17 @@
     </Category::Empty>
     {{else}}
     {{#each this.songs as |item index| }}
-    <Category::Item
+    <Category::Item 
+        {{did-update this.updateFavourites @favourites}}
         @index={{inc index 1}}
         @favourites={{this.favouriteList}}
         @title={{item.title}}
         @subtitle={{item.subtitle}}
         @cover={{item.images.coverart}}
         @item={{item}}
-        @setRoute={{@setRoute}}>
+        @setRoute={{@setRoute}}
+        @currentFocus={{@currentFocus}}
+    >
     </Category::Item>
     {{/each}}
     {{/if}}

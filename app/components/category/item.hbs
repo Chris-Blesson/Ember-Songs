@@ -6,18 +6,19 @@
                 src={{@cover}}
                 alt={{@title}}>
         </div>
-        <button class="record__title record__item--grow" {{on "click" (fn @setRoute @item.id)}}>
-                {{@title}}
+        <button class="record__title record__item--grow" {{on "click" (fn @setRoute @item.id
+            @item.type )}}>
+            {{@title}}
         </button>
-        
+
         <div class="record__owners record__item--grow">{{@subtitle}}</div>
-        <div 
-            tabindex="0" 
-            class="record__add-fav record__item--grow" 
+        <div
+            tabindex="0"
+            class="record__add-fav record__item--grow"
             {{on "click" this.toggleFav}}
-            {{on "keydown" this.handleKeyPress}}
-        >
-            <svg {{did-update this.getInitialStatus @favourites}} xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 record__icon record__icon--fav
+            {{on "keydown" this.handleKeyPress}}>
+            <svg {{did-update this.getInitialStatus @favourites}} xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 record__icon record__icon--fav
                 {{if this.favStatus "record__icon--fav-active" }}"
                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318

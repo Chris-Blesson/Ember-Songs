@@ -4,9 +4,15 @@ import { tracked } from '@glimmer/tracking';
 import { inject as service } from '@ember/service'
 export default class CategoryItemComponent extends Component {
 
+    #TYPE_MAPPING = {
+        '1': 'pop',
+        '2': 'dance',
+        '3': 'hits',
+    }
     constructor() {
         super(...arguments);
-        this.getInitialStatus()
+        this.getInitialStatus();
+
     }
 
     @tracked isFav = false;
@@ -44,8 +50,11 @@ export default class CategoryItemComponent extends Component {
 
     addFavourites() {
         const { id, title, subtitle, images } = this.args.item;
+        console.log({
+            [id]: { id, title, subtitle, images, type: this.#TYPE_MAPPING[this.args.currentFocus] }
+        });
         this.firebaseService.addFavourites({
-            [id]: { id, title, subtitle, images }
+            [id]: { id, title, subtitle, images, type: this.#TYPE_MAPPING[this.args.currentFocus] }
         })
         this.favouriteListService.addItemsToFavourite(this.args.item);
     }

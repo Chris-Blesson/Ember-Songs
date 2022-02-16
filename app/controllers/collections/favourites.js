@@ -1,12 +1,12 @@
 import Controller from '@ember/controller';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
-
+import { inject as service } from '@ember/service';
 
 
 export default class CollectionsFavouritesController extends Controller {
-    
 
+    @service router;
     init() {
         super.init(...arguments);
     }
@@ -61,6 +61,14 @@ export default class CollectionsFavouritesController extends Controller {
 
         this.subHeadingText = "Please make sure the search word is spelled right!"
 
+    }
+
+    @action
+    setRoute(id, type) {
+
+        let trackedRoute = "home";
+        trackedRoute+=`.${type}`
+        this.router.transitionTo(trackedRoute, id);
     }
 
     resetData() {

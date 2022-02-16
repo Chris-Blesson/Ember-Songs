@@ -5,7 +5,13 @@ export default class CollectionsFavouritesRoute extends Route {
 
 
   model() {
-    return this.store.findAll('favourite', { reload: true })
+    try {
+      return this.store.findAll('favourite', { reload: true })
+    }
+    catch (err) {
+      console.error(err);
+      return {}
+    }
   }
 
 
