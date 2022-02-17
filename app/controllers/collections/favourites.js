@@ -92,9 +92,12 @@ export default class CollectionsFavouritesController extends Controller {
 
         if (status) {
             this.filters[type] = [...this.filters[type], value];
+            document.getElementsByClassName('category__section')[0].scrollIntoView({ behavior: "smooth", block: "end" });
         }
         else {
+
             this.filters[type] = this.filters[type].filter(val => val !== value);
+            document.getElementsByClassName('favourites__search-container')[0].scrollIntoView({ behavior: "smooth", block: "end" });
         }
 
 
