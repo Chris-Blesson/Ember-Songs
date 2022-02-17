@@ -19,6 +19,7 @@ export default class CategoryItemComponent extends Component {
     @service store;
     @service("favourites") favouriteListService;
     @service("firebase") firebaseService;
+    @service("utils") utilService;
 
     @action
     toggleFav() {
@@ -50,11 +51,8 @@ export default class CategoryItemComponent extends Component {
 
     addFavourites() {
         const { id, title, subtitle, images } = this.args.item;
-        console.log({
-            [id]: { id, title, subtitle, images, type: this.#TYPE_MAPPING[this.args.currentFocus] }
-        });
         this.firebaseService.addFavourites({
-            [id]: { id, title, subtitle, images, type: this.#TYPE_MAPPING[this.args.currentFocus] }
+            [id]: { id, title, subtitle, images, type: this.#TYPE_MAPPING[this.args.currentFocus], rating: this.utilService.generateRandomNumbers(5) }
         })
         this.favouriteListService.addItemsToFavourite(this.args.item);
     }

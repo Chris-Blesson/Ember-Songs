@@ -1,5 +1,7 @@
 .favourites {
 
+
+
     &__layout {
         display       : flex;
         flex-direction: column;
@@ -7,7 +9,9 @@
     }
 
     &__list-container {
-        width: 90%;
+        width          : 100%;
+        display        : flex;
+        justify-content: space-between;
 
         & .record__add-fav {
             visibility: hidden;
@@ -16,6 +20,155 @@
 
     &__search-container {
         margin: 5rem;
+    }
+
+    &__filter {
+        &-container {
+            width          : 78%;
+            display        : flex;
+            justify-content: flex-end;
+            position       : relative;
+            top            : 9rem;
+            height         : 100%;
+            left           : 10%;
+            overflow-y     : scroll;
+        }
+    }
+
+    .filter {
+
+        &__field {
+            &-title {
+                color: $text-light-1;
+            }
+        }
+
+        &__slider {
+            position        : relative;
+            width           : 3.5rem;
+            height          : 3.5rem;
+            color           : $product-grey;
+            text-align      : center;
+            border          : solid 1px $dark-primary;
+            background-color: $dark-primary;
+            border-radius   : 4px;
+            cursor          : pointer;
+            z-index         : 2;
+
+
+            &:focus {
+                outline: none;
+            }
+
+            &--active {
+                background-color: $dark-primary-1;
+                border-color    : $dark-primary-1;
+            }
+
+            &-icon {
+                position      : absolute;
+                width         : 2rem;
+                height        : 2rem;
+                top           : .7rem;
+                right         : .7rem;
+                stroke        : $product-grey;
+                // stroke     : $dark-primary;
+
+                &--active {
+                    stroke: $white;
+                }
+            }
+
+
+        }
+
+        &__section {
+            &-container {
+                margin-top: 2rem;
+            }
+        }
+
+        &__field {
+            &-value {
+                display        : flex;
+                align-items    : center;
+                justify-content: space-between;
+                width          : 5rem;
+                text-align     : center;
+                padding        : 1rem 0rem 0.5rem 2rem;
+
+                &--heading {
+                    display    : flex;
+                    align-items: center;
+                }
+
+                &--option {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+
+
+    &__section {
+        flex-grow: 1;
+
+    }
+
+    .filters {
+        &__section {
+            background-color: $dark-secondary;
+            margin-top      : 4rem;
+            width           : 0%;
+            transition      : width 200ms ease-out;
+            padding         : 1.5rem 0px 0px 2rem;
+            visibility      : hidden;
+            letter-spacing  : .030rem;
+            min-height      : 50rem;
+
+            &--active {
+                width     : 30%;
+                border    : 1px solid $border-dark-light;
+                opacity   : 1;
+                visibility: visible;
+            }
+        }
+    }
+
+
+    .icon {
+        &__star {
+            width : 1.4rem;
+            height: 1.4rem;
+            fill  : $card-bg-3;
+
+        }
+    }
+
+    label {
+        display    : flex;
+        align-items: center;
+        cursor     : pointer;
+
+    }
+
+    .label {
+        &__container {
+            display    : flex;
+            margin-left: 1.75rem;
+            gap        : .5rem;
+
+            &--text {
+                width: 1rem;
+                color: $text-light-2;
+            }
+
+            &--icon {
+                display    : flex;
+                align-items: center;
+            }
+        }
     }
 
 

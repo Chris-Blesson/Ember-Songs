@@ -3,15 +3,47 @@
         <div class="favourites__search-container">
             <Search-Box @onInputChangeHandler={{this.filterFavourites}} @placeholder="Songs,albums"></Search-Box>
         </div>
-        <div class="favourites__list-container">
-            <Category
-                @title="Favourites"
-                @songList={{this.songList}}
-                @renderStatus={{this.renderStatus}}
-                @heading={{this.heading}}
-                @subHeading={{this.subHeading}}
-                @setRoute={{this.setRoute}}
-            ></Category>
-        </div>
-    </div>
-</section>
+        <div class="favourites__filter-container">
+            <div {{on "click" this.toggleSlider}} tabindex="0" class="filter__slider {{if
+                this.showFilter "filter__slider--active" }}">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 filter__slider-icon {{if
+                    this.showFilter "filter__slider-icon--active" }}"
+                    fill="none" viewBox="0 0 24
+                    24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1
+                        1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0
+                        00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013
+                        6.586V4z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="favourites__list-container">
+                <div class="favourites__section">
+                    <Category
+                        @title="Favourites"
+                        @songList={{this.songList}}
+                        @renderStatus={{this.renderStatus}}
+                        @heading={{this.heading}}
+                        @subHeading={{this.subHeading}}
+                        @setRoute={{this.setRoute}}>
+                    </Category>
+                </div>
+                <div class="filters__section {{if
+                    this.showFilter "filters__section--active" }}">
+                    <h2 class="filter__section-heading">Filter</h2>
+                    <div class="filter__section-container">
+                        <div class="filter__field">
+                            <div class="filter__field-title">
+                                Ratings
+                            </div>
+                            <Rating @addRules={{this.addRules}} @index="1"></Rating>
+                            <Rating @addRules={{this.addRules}} @index="2"></Rating>
+                            <Rating @addRules={{this.addRules}} @index="3"></Rating>
+                            <Rating @addRules={{this.addRules}} @index="4"></Rating>
+                            <Rating @addRules={{this.addRules}} @index="5"></Rating>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

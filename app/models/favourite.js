@@ -6,4 +6,5 @@ export default class FavouriteModel extends Model {
     @attr({}) images;
     @attr('string') subtitle;
     @attr('string') type;
+    @attr('string') rating;
 }

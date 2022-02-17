@@ -10,7 +10,6 @@ export default class CategoryListComponent extends Component {
     @service store;
     constructor() {
         super(...arguments);
-        console.log('Focus', this.args.currentFocus);
         try {
             this.favourites = this.store.findAll('favourite', { reload: true });
         }
